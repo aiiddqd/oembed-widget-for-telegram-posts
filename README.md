@@ -1,5 +1,6 @@
-# oEmbed Telegram Post Widget
+# Telegram Post Widget oEmbed for WordPress
 
+Automatically embeds Telegram links (channels, groups, or posts) as responsive iframes using WordPress oEmbed.
 
 # Includes
 - support of Post Widgets by Telegram https://core.telegram.org/widgets/post 
