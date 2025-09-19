@@ -3,11 +3,12 @@
 /**
  * Plugin Name: oEmbed Telegram Post Widget
  * Description: Automatically embeds Telegram links (channels, groups, or posts) as responsive iframes using WordPress oEmbed.
- * Version: 0.250918
+ * Plugin URI: https://github.com/aiiddqd/oembed-telegram-post-widget
  * Author: aiiddqd
+ * Author URI: https://github.com/aiiddqd/
  * Tested up to: 6.8.2
- * Author URI: https://github.com/aiiddqd/oembed-telegram-post-widget
  * License: GPL-2.0+
+ * Version: 1.0
  */
 
 namespace aiiddqd;

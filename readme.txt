@@ -4,7 +4,7 @@ Tags: telegram, oembed, embed, block, gutenberg
 Requires at least: 5.0
 Tested up to: 6.8
 Requires PHP: 7.2
-Stable tag: 0.250918  
+Stable tag: 1.0  
 License: GPLv2 or later  
 License URI: https://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -18,5 +18,8 @@ A minimal WordPress plugin to embed Telegram posts, channels, and groups using o
 2. Activate the plugin through the 'Plugins' screen in WordPress.
 
 == Changelog ==
-= 0.250918 =
-* Initial release.
+= 1.0 =
+* Initial release
+
+= 0.250901 =
+* Release candidate
