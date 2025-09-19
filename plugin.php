@@ -5,6 +5,7 @@
  * Description: Automatically embeds Telegram links (channels, groups, or posts) as responsive iframes using WordPress oEmbed.
  * Version: 0.250918
  * Author: aiiddqd
+ * Tested up to: 6.8.2
  * Author URI: https://github.com/aiiddqd/oembed-telegram-post-widget
  * License: GPL-2.0+
  */
@@ -41,11 +42,12 @@ class oEmbedTelegramPostWidget
                 return false;
             }
 
+            /* phpcs:disable WordPress.WP.EnqueuedResources.NonEnqueuedScript */
             return sprintf(
                 '<script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-post="%s" data-width="100%%"></script>',
                 esc_attr($postValue)
             );
-
+            /* phpcs:enable WordPress.WP.EnqueuedResources.NonEnqueuedScript */
 
         });
 
