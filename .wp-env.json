@@ -1,0 +1,11 @@
+{
+    "phpVersion": "8.3",
+    "config": {
+        "WP_DEBUG": true
+    },
+    "port": 8901,
+    "plugins": [
+        ".",
+        "https://downloads.wordpress.org/plugin/plugin-check.1.6.0.zip"
+    ]
+}
