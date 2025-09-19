@@ -1,5 +1,5 @@
 === oEmbed Telegram Post Widget ===
-Contributors: aiiddqd  
+Contributors: aiiddqd
 Tags: telegram, oembed, embed, block, gutenberg  
 Requires at least: 5.0
 Tested up to: 6.8
