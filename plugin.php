@@ -24,7 +24,6 @@ class oEmbedTelegramPostWidget
     public static function init()
     {
         add_action('init', [self::class, 'register_oembed']);
-
     }
 
     /**
@@ -42,7 +41,12 @@ class oEmbedTelegramPostWidget
                 return false;
             }
 
-            /* phpcs:disable WordPress.WP.EnqueuedResources.NonEnqueuedScript */
+            
+            /* 
+             * Avoid phpcs warning about directly embedding scripts because this is how Telegram oEmbed works
+             *
+             * phpcs:disable WordPress.WP.EnqueuedResources.NonEnqueuedScript 
+             */
             return sprintf(
                 '<script async src="https://telegram.org/js/telegram-widget.js?22" data-telegram-post="%s" data-width="100%%"></script>',
                 esc_attr($postValue)
@@ -50,8 +54,5 @@ class oEmbedTelegramPostWidget
             /* phpcs:enable WordPress.WP.EnqueuedResources.NonEnqueuedScript */
 
         });
-
     }
-
 }
-
