@@ -1,4 +1,4 @@
-=== oEmbed Telegram Post Widget ===
+=== oEmbed Widget for Telegram Posts ===
 Contributors: aiiddqd
 Tags: telegram, oembed, embed, block, gutenberg  
 Requires at least: 5.0
