@@ -2,6 +2,9 @@
   "scripts": {
     "start:wp-env": "wp-env start",
     "start-with-reset:wp-env": "wp-env start --update",
+    "stop:wp-env": "wp-env stop",
+    "wp-env:cli": "wp-env run cli bash",
+    "wp-env:log": "wp-env logs",
     "wp-env:destroy": "wp-env destroy"
   }
 }

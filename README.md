@@ -12,7 +12,7 @@ Automatically embeds Telegram links (channels, groups, or posts) as responsive i
 To install the oEmbed Telegram Post Widget plugin using WP CLI, run:
 
 ```bash
-wp plugin install https://github.com/aiiddqd/oembed-telegram-post-widget/archive/refs/heads/main.zip --activate
+wp plugin install https://github.com/aiiddqd/oembed-widget-for-telegram-posts/archive/refs/heads/main.zip --activate
 ``` 
 
 ## WP Admin
