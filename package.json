@@ -1,5 +1,7 @@
 {
   "scripts": {
-    "start:env": "wp-env start"
+    "start:wp-env": "wp-env start",
+    "start-with-reset:wp-env": "wp-env start --update",
+    "wp-env:destroy": "wp-env destroy"
   }
 }
