@@ -7,7 +7,7 @@
  * Author: aiiddqd
  * Author URI: https://github.com/aiiddqd/
  * Tested up to: 6.8.2
- * License: GPL-2.0+
+ * License: GPLv2 or later
  * Version: 1.0
  */
 

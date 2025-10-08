@@ -17,6 +17,13 @@ A minimal WordPress plugin to embed Telegram posts, channels, and groups using o
 1. Upload the plugin files to the `/wp-content/plugins/` directory.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
 
+== External services ==
+
+This plugin connects to Telegram's oEmbed endpoint to retrieve and display Telegram posts, channels, and groups within WordPress.
+When embedding Telegram content, requests are sent to Telegram servers to fetch the necessary data. 
+No personal information is transmitted unless required by Telegram's API.
+For more information, see the official Telegram website: https://telegram.org and review their privacy policy and terms of service https://telegram.org/privacy/
+
 == Changelog ==
 = 1.0 =
 * Initial release
