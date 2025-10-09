@@ -1,8 +1,7 @@
-name: Release WordPress Plugin
-on:
-  push:
-    tags:
-      - "v*"
+name: zip file to release artifacts
+
+on: push
+
 jobs:
   release:
     runs-on: ubuntu-latest
@@ -13,6 +12,7 @@ jobs:
           zip -r oembed-widget-for-telegram-posts.zip .
       - name: Create Release
         uses: softprops/action-gh-release@v2
+        if: github.ref_type == 'tag'
         with:
           files: oembed-widget-for-telegram-posts.zip
           name: Release ${{ github.ref_name }}
